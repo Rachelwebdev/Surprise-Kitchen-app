@@ -6,12 +6,15 @@ import Ingredients from "./ingredients";
 
 const DetailedApi = function () {
   return (
-    <div className="api-container">
-      <MealPicture />
-      <MealVideo />
-      <RecipeInstruction />
-      <Ingredients />
-    </div>
+    <>
+      <h1 className="heading">Name of Dish:</h1>
+      <div className="api-container">
+        <MealPicture />
+        <MealVideo />
+        <RecipeInstruction />
+        <Ingredients />
+      </div>
+    </>
   );
 };
 

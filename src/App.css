@@ -4,9 +4,11 @@
   box-sizing: border-box;
 }
 
+/* Main Page */
 .main-container {
   text-align: center;
   margin-top: 15rem;
+  display: none;
 }
 
 .main-container h1 {
@@ -31,6 +33,43 @@
   color: black;
 }
 
+/* API Display food page */
 /* .api-container {
   display: none;
 } */
+
+.api-container {
+  margin: 100px;
+  display: grid;
+  grid-template-rows: repeat(2, 400px);
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 50px;
+  column-gap: 50px;
+}
+
+.meal-img,
+.ing-list,
+.meal-vid,
+.recipe-cont {
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 490px) and (max-width: 480px) {
+  .meal-img,
+  .ing-list,
+  .meal-vid,
+  .recipe-cont {
+    width: 100%;
+  }
+}
+
+.heading {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.meal-img img {
+  width: 100%;
+  height: 100%;
+}
