@@ -1,10 +1,16 @@
 import React from "react";
+import ReactPlayer from "react-player";
 
-const MealVideo = function () {
+const MealVideo = function (props) {
+  const mealVid = props.video;
   return (
     <div className="meal-vid">
-      <p>Watch the prep process in this video</p>
-      <video src=""></video>
+      <h2 className="video-heading">
+        Watch the preparation process in this video
+      </h2>
+      <div className="video-container">
+        <ReactPlayer url={mealVid} />
+      </div>
     </div>
   );
 };

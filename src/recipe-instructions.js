@@ -1,9 +1,11 @@
 import React from "react";
 
-const RecipeInstruction = function () {
+const RecipeInstruction = function (props) {
+  const recipeInst = props.instruction;
   return (
     <div className="recipe-cont">
-      <p>Blend tomatoe mix and cook the rice inside, with your spices</p>
+      <h2>Instructions to Follow:</h2>
+      <p className="recipe-text">{recipeInst}</p>
     </div>
   );
 };

@@ -1,14 +1,11 @@
 import React from "react";
 
-const MealPicture = function () {
+const MealPicture = function (props) {
+  const mealImage = props.image;
+
   return (
     <div className="meal-img">
-      <img
-        src={
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA6soPHdcR_6NyGsaTJmTnCIJSI5irBrwzNA&usqp=CAU"
-        }
-        alt={"image of meal"}
-      />
+      <img src={mealImage} alt="a plate of food" />
     </div>
   );
 };
