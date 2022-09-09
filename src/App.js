@@ -6,8 +6,8 @@ import DetailedApi from "./detailedAPI-content";
 function App() {
   return (
     <div className="App">
-      <DetailedApi />
       <Surprise />
+      <DetailedApi />
     </div>
   );
 }
