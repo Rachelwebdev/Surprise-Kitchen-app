@@ -4,35 +4,6 @@
   box-sizing: border-box;
 }
 
-/* Main Page */
-.main-container {
-  text-align: center;
-  margin-top: 15rem;
-  display: none;
-}
-
-.main-container h1 {
-  margin-bottom: 2rem;
-}
-.main-container h2 {
-  margin-bottom: 2rem;
-}
-
-.btn {
-  background-color: black;
-  color: rgb(255, 149, 0);
-  padding: 1rem;
-  border-radius: 1.5rem;
-  font-size: 20px;
-  border: transparent;
-}
-
-.btn:hover {
-  cursor: pointer;
-  background-color: rgb(255, 149, 0);
-  color: black;
-}
-
 /* API PAGE */
 
 .main-api-container {
