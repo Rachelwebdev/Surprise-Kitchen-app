@@ -11,9 +11,11 @@ const SurpriseKitchen = function () {
           CLICK ON THE BUTTON BELOW TO FIND OUT WHAT MEAL WE WOULD BE PREPARING
           TODAY!
         </h2>
-        <Link to="/details" className="btn" type="submit">
-          Today's Meal 👩‍🍳
-        </Link>
+        <div className="button-container">
+          <Link to="/details" className="btn" type="submit">
+            Today's Meal 👩‍🍳
+          </Link>
+        </div>
       </div>
     </>
   );
