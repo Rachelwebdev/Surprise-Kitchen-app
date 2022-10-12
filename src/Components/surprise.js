@@ -12,7 +12,7 @@ const SurpriseKitchen = function () {
           TODAY!
         </h2>
         <div className="button-container">
-          <Link to="/details" className="btn" type="submit">
+          <Link to="/details" className="btn-submit" type="submit">
             Today's Meal 👩‍🍳
           </Link>
         </div>

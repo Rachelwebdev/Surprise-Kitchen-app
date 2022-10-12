@@ -1,8 +1,8 @@
 import "./App.css";
+import Navbar from "./Components/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Surprise from "./Components/surprise";
 import Details from "./Components/detailedAPI-content";
-import Navbar from "./Components/Navbar";
 import Contact from "./Components/Contact";
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Surprise />} />
         <Route path="/details" element={<Details />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Contact />
     </div>
   );
 }

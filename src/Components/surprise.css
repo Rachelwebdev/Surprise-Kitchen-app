@@ -25,9 +25,9 @@
   width: 50%;
 }
 
-.btn {
+.btn-submit {
   background-color: rgb(22, 21, 21);
-  color: rgb(255, 149, 0);
+  color: red;
   padding: 1rem;
   border-radius: 1.5rem;
   font-size: 20px;
@@ -35,8 +35,10 @@
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-submit:hover {
   cursor: pointer;
   background-color: rgb(249, 248, 247);
-  color: black;
+  color: red;
+  font-weight: 800;
+  font-size: 30px;
 }
