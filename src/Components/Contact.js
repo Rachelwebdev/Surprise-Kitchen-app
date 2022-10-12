@@ -9,20 +9,13 @@ const Contact = () => {
         <div className="input-container">
           <input className="name-input" type="text" placeholder="Name" />
           <input className="email-input" type="email" placeholder="Email" />
-
-          <textarea
-            name="message"
-            id="message"
-            cols="60"
-            rows="10"
-            className="message-input"
-          >
+          <textarea name="message" id="message" className="message-input">
             A Note to Our Chef:
           </textarea>
-          <button className="contact-btn-submit" type="submit">
-            SUBMIT
-          </button>
         </div>
+        <button className="contact-btn-submit" type="submit">
+          SUBMIT
+        </button>
       </div>
     </>
   );
