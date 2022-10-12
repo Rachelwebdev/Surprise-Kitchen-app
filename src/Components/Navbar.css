@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 1.5rem;
+  border-bottom: 2px solid rgb(255, 149, 0);
 }
 
 .logo-container {

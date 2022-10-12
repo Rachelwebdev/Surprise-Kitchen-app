@@ -40,18 +40,27 @@ const Details = function () {
           <>
             <div key={meal.strMeal} className="main-api-container">
               <div className="title-heading">
-                <h1>Name of Dish: {meal.strMeal}</h1>
-                <h2>Meal Category: {meal.strCategory}</h2>
-                <h3>Meal Description: This is a/an {meal.strArea} Dish</h3>
+                <h1>
+                  <span>Name of Dish: </span> {meal.strMeal}
+                </h1>
+                <h2>
+                  <span>Meal Category: </span> {meal.strCategory}
+                </h2>
+                <h3>
+                  <span>Meal Description:</span> This is a/an {meal.strArea}
+                  Dish
+                </h3>
               </div>
 
               <div key={meal.strMeal} className="api-container">
-                <MealPicture image={meal.strMealThumb} />
-                <RecipeInstruction instruction={meal.strInstructions} />
-
-                {/* <Ingredients ingredients={meal.values} /> */}
-
-                <MealVideo video={meal.strYoutube} />
+                <div className="image-video-container">
+                  <MealPicture image={meal.strMealThumb} title={meal.strMeal} />
+                  <MealVideo video={meal.strYoutube} title={meal.strMeal} />
+                </div>
+                <RecipeInstruction
+                  instruction={meal.strInstructions}
+                  title={meal.strMeal}
+                />
               </div>
             </div>
           </>
