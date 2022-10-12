@@ -5,10 +5,10 @@ const Ingredients = function (props) {
   return (
     <div className="ing-list">
       <ol>
-        {/* <li key="{ing1}">{IngredientList}</li>
+        <li key="{ing1}">{IngredientList}</li>
         <li key="{ing2}">salt</li>
         <li key="{ing3}">pepper</li>
-        <li key="{ing4}">Jollof rice</li> */}
+        <li key="{ing4}">Jollof rice</li>
       </ol>
     </div>
   );
