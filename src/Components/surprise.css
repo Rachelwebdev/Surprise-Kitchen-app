@@ -86,10 +86,13 @@
 @media (min-width: 1801px) {
   .main-container h1 {
     font-size: 100px;
-    width: 70%;
+    width: 50%;
   }
   .main-container h2 {
     font-size: 50px;
-    width: 70%;
+    width: 50%;
+  }
+  .main-container {
+    background-size: 45%;
   }
 }
