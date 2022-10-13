@@ -22,6 +22,18 @@
   border-radius: 50%;
 }
 
+@media (max-width: 690px) {
+  .nav-bar {
+    margin: 0 1rem;
+  }
+  .logo-name {
+    display: none;
+  }
+  .nav-list {
+    width: 80%;
+  }
+}
+
 /* .nav-list ul {
   display: flex;
 }

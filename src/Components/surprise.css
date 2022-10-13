@@ -1,6 +1,6 @@
 /* Main Page */
 .main-container {
-  height: 120vh;
+  /* height: 110vh; */
   text-align: center;
   padding-top: 1rem;
   background-image: url("/public/bg-image.png");
@@ -11,6 +11,7 @@
 }
 
 .main-container h1 {
+  padding-top: 12rem;
   margin: 2.2rem 1rem;
   color: rgb(22, 21, 21);
   font-size: 3.5rem;
@@ -41,4 +42,54 @@
   color: red;
   font-weight: 800;
   font-size: 30px;
+}
+
+@media (max-width: 480px) {
+  .main-container {
+    background-size: 450px;
+  }
+  .main-container h1 {
+    font-size: 30px;
+    width: 70%;
+    margin-bottom: 4rem;
+  }
+  .main-container h2 {
+    font-size: 18px;
+    width: 70%;
+    margin-bottom: 7rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-container h1,
+  .main-container h2 {
+    padding-top: 2rem;
+    width: 80%;
+  }
+  .main-container h2 {
+    opacity: 0.7;
+    background-color: aliceblue;
+  }
+  .main-container {
+    background-position: bottom;
+    opacity: 4;
+  }
+  .button-container {
+    width: 100%;
+  }
+  .btn-submit {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1801px) {
+  .main-container h1 {
+    font-size: 100px;
+    width: 70%;
+  }
+  .main-container h2 {
+    font-size: 50px;
+    width: 70%;
+  }
 }
