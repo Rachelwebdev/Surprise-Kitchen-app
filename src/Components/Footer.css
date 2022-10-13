@@ -1,0 +1,31 @@
+.footer-container {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.section-1,
+.section-2 {
+  width: 40%;
+}
+.section-1 p {
+  margin-bottom: 20px;
+}
+
+.section-1 p span {
+  margin-right: 1rem;
+}
+.section-2 > p {
+  margin: 20px 0;
+}
+
+.socials {
+  display: flex;
+}
+
+.socials p {
+  margin-right: 1rem;
+}

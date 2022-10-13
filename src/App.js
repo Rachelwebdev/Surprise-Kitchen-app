@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Surprise from "./Components/surprise";
 import Details from "./Components/detailedAPI-content";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/details" element={<Details />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

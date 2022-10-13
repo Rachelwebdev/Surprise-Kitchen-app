@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import MealPicture from "./meal-picture";
 import MealVideo from "./meal-video";
 import RecipeInstruction from "./recipe-instructions";
-import Ingredients from "./ingredients";
 import "./detailedAPI.css";
 
 const url = "https://www.themealdb.com/api/json/v1/1/random.php";
