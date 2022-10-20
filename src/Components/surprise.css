@@ -1,5 +1,6 @@
 /* Main Page */
 .main-container {
+  padding-bottom: 7rem;
   /* height: 110vh; */
   text-align: center;
   padding-top: 1rem;
@@ -11,7 +12,7 @@
 }
 
 .main-container h1 {
-  padding-top: 12rem;
+  /* padding-bottom: 2rem; */
   margin: 2.2rem 1rem;
   color: rgb(22, 21, 21);
   font-size: 3.5rem;
@@ -23,7 +24,7 @@
   width: 35%;
 }
 .button-container {
-  width: 50%;
+  width: 40%;
 }
 
 .btn-submit {
@@ -68,7 +69,8 @@
     width: 80%;
   }
   .main-container h2 {
-    opacity: 0.7;
+    font-weight: 700;
+    opacity: 0.9;
     background-color: aliceblue;
   }
   .main-container {
