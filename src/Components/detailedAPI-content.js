@@ -3,11 +3,14 @@ import MealPicture from "./meal-picture";
 import MealVideo from "./meal-video";
 import RecipeInstruction from "./recipe-instructions";
 import "./detailedAPI.css";
-import { Link } from "react-router-dom";
 
 const url = "https://www.themealdb.com/api/json/v1/1/random.php";
 
 const Details = function () {
+  //refresh page on button clicked
+  const refreshPage = () => {
+    window.location.reload();
+  };
   const [meals, setMeals] = useState([]);
 
   //use async/await to fetch data
@@ -62,9 +65,9 @@ const Details = function () {
                   title={meal.strMeal}
                 />
               </div>
-              <Link to="/details" className="btn-submit discover-btn">
+              <button onClick={refreshPage} className="btn-submit discover-btn">
                 Discover your Next Meal
-              </Link>
+              </button>
             </div>
           </>
         );
