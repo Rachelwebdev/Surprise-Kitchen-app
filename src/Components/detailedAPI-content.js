@@ -3,6 +3,7 @@ import MealPicture from "./meal-picture";
 import MealVideo from "./meal-video";
 import RecipeInstruction from "./recipe-instructions";
 import "./detailedAPI.css";
+import { Link } from "react-router-dom";
 
 const url = "https://www.themealdb.com/api/json/v1/1/random.php";
 
@@ -61,6 +62,9 @@ const Details = function () {
                   title={meal.strMeal}
                 />
               </div>
+              <Link to="/details" className="btn-submit discover-btn">
+                Discover your Next Meal
+              </Link>
             </div>
           </>
         );
